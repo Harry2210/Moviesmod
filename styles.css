@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #a897973d;
+}
+
+header {
+    background-color: #f3f057;
+    padding: 10px 20px;
+    display: flex;
+ 
+}
+
+.logo {
+    font-size: 5px;
+}
+
+
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #111111; /* Gold */
+}
+
+/* 3D Button Effect for Home */
+nav ul li:first-child a {
+    background-color: #f35b47; /* Red */
+    padding: 10px 30px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav ul li:first-child a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(39, 39, 39, 0.815);
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.movie-card {
+    background-color: #a5f891;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(226, 101, 238);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #ff6f61, #ff9a9e);
+}
+
+
+
+footer {
+    color: #ffffff;
+    font-family: cursive;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+
+
+.movie-card:hover {
+    transform: scale(1.25);
+}
+
+.hero {
+    background: linear-gradient(to bottom, #e98b1f, #fecfef, #8cfe75); 
+}
+
+footer {
+    background-color: #9861ff; 
+}
